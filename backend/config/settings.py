@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-(fjm@lqk8re!ejz&yx7(5z&6@0t&3v7!tk!v6&8)7%r2$k4ddu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+    "localhost",
+    "buynest-backend-qq2x.onrender.com",
+]
 
 
 # Application definition
