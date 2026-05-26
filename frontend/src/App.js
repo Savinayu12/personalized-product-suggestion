@@ -19,7 +19,7 @@ function App() {
   const [search, setSearch] = useState("");
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/api/products/")
+    fetch("https://buynest-backend-qq2x.onrender.com/api/products/")
       .then((response) => response.json())
       .then((data) => setProducts(data))
       .catch((error) =>
